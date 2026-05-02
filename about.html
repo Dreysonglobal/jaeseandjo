@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Jaese & Jo Pharma Ltd</title>
+  <meta name="description" content="Learn about Jaese & Jo Pharma - our mission, vision, values, manufacturing excellence, and commitment to ophthalmic healthcare.">
+  <meta name="keywords" content="pharmaceutical company, about pharma, ophthalmic manufacturer, WHO-GMP certified, Nigeria pharma">
+  <link rel="canonical" href="https://www.jaesejopharma.com/about.html">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-hero { background: linear-gradient(135deg, #0a2b3e 0%, #1f4a6e 100%); color: white; padding: 60px 0; text-align: center; }
+    .about-hero h1 { color: white; }
+    .about-hero h1:after { background: var(--gold); left: 50%; transform: translateX(-50%); width: 80px; }
+    .mission-vision { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin: 50px 0; }
+    .mv-card { background: white; border-radius: 28px; padding: 35px; text-align: center; box-shadow: var(--shadow-md); transition: 0.3s; }
+    .mv-card:hover { transform: translateY(-5px); }
+    .mv-card i { font-size: 48px; color: var(--gold); margin-bottom: 20px; }
+    .timeline { margin: 50px 0; }
+    .timeline-item { display: flex; gap: 20px; margin-bottom: 30px; padding: 20px; background: var(--gray-light); border-radius: 20px; }
+    .timeline-year { font-size: 1.8rem; font-weight: 700; color: var(--gold); min-width: 100px; }
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; }
+    .team-member { text-align: center; }
+    .team-avatar { width: 150px; height: 150px; background: var(--navy); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 48px; }
+    .cert-badge { display: inline-block; background: var(--gold); color: var(--navy); padding: 8px 20px; border-radius: 40px; margin: 5px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <a href="index.html" class="logo-area" style="text-decoration: none;">
+          <img src="images/logo.png" alt="Jaese & Jo Pharma Logo" class="logo-img" width="48" height="48">
+          
+          <div class="brand-text"><h1>Jaese & Jo Pharma Ltd</h1><p>DEDICATED TO BETTER VISION</p></div>
+        </a>
+        <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html" class="nav-item">Home</a>
+          <a href="products.html" class="nav-item">Products</a>
+          <a href="about.html" class="nav-item active">About</a>
+          <div class="contact-btns">
+            <a href="tel:08051481672" class="btn-call"><i class="fas fa-phone-alt"></i> Call</a>
+            <a href="https://wa.me/2348024164899" target="_blank" class="btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-hero">
+      <div class="container">
+        <h1>About Jaese & Jo Pharma Ltd</h1>
+        <p style="margin-top: 15px;">Pioneering ophthalmic excellence since 2015</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- Company Story -->
+      <div class="about-story" style="margin-top: 50px;">
+        <div class="about-text">
+          <h2>Our Story</h2>
+          <p>Jaese & Jo Pharma Ltd emerged from a shared vision: to provide Africa and the world with world-class ophthalmic pharmaceuticals that combine therapeutic innovation with patient comfort. With backgrounds in clinical ophthalmology and pharmaceutical chemistry, our founders recognized a gap in accessible, high-quality eye care formulations.</p>
+          <br>
+          <p>Starting from a modest research facility in Lagos, we have grown into a trusted name across 15+ countries, serving millions of patients. Our state-of-the-art manufacturing plant, inaugurated in 2020, operates under strict cGMP and WHO guidelines, ensuring every drop meets international quality standards.</p>
+          <br>
+          <p>Today, Jaese & Jo Pharma Ltd stands as a beacon of pharmaceutical excellence in sub-Saharan Africa, with a growing portfolio of innovative ophthalmic solutions. We remain committed to our founding principle: <strong>"Dedicated to Better Vision"</strong> — not just as a slogan, but as a promise to every patient and physician who trusts our products.</p>
+        </div>
+        <div class="about-stats">
+          <i class="fas fa-eye" style="font-size: 2rem; color: var(--gold);"></i>
+          <h3 style="margin: 15px 0 5px;">10+ Years</h3>
+          <p>of ophthalmic pharmaceutical leadership</p>
+          <hr style="margin: 20px 0; opacity:0.3;">
+          <p><i class="fas fa-flask"></i> 3 breakthrough formulations</p>
+          <p><i class="fas fa-globe"></i> Presence in 15+ countries</p>
+          <p><i class="fas fa-smile"></i> 98% patient satisfaction</p>
+          <p><i class="fas fa-truck"></i> 24/7 distribution network</p>
+          <p><i class="fas fa-microscope"></i> Advanced R&D facility</p>
+        </div>
+      </div>
+
+      <!-- Mission & Vision -->
+      <div class="mission-vision">
+        <div class="mv-card"><i class="fas fa-bullseye"></i><h3>Our Mission</h3><p>To develop, manufacture, and distribute innovative, high-quality ophthalmic pharmaceuticals that improve vision outcomes and quality of life for patients worldwide.</p></div>
+        <div class="mv-card"><i class="fas fa-eye"></i><h3>Our Vision</h3><p>To become Africa's most trusted ophthalmic pharmaceutical company and a globally recognized leader in eye care innovation.</p></div>
+        <div class="mv-card"><i class="fas fa-heart"></i><h3>Our Values</h3><p>Excellence · Integrity · Innovation · Patient-Centricity · Accessibility · Sustainability</p></div>
+      </div>
+
+      <!-- Certifications -->
+      <div style="text-align: center; margin: 50px 0;">
+        <h2>Certifications & Accreditations</h2>
+        <div style="margin-top: 30px;">
+          <span class="cert-badge"><i class="fas fa-check-circle"></i> WHO-GMP Certified</span>
+          <span class="cert-badge"><i class="fas fa-check-circle"></i> ISO 13485:2016</span>
+          <span class="cert-badge"><i class="fas fa-check-circle"></i> NAFDAC Registered</span>
+          <span class="cert-badge"><i class="fas fa-check-circle"></i> FDA Inspected Facility</span>
+          <span class="cert-badge"><i class="fas fa-check-circle"></i> EU GMP Compliant</span>
+        </div>
+      </div>
+
+      
+
+      
+
+      <!-- Quality Commitment -->
+      <div style="background: var(--navy); color: white; border-radius: 32px; padding: 50px; margin: 60px 0; text-align: center;">
+        <i class="fas fa-shield-alt" style="font-size: 48px; color: var(--gold); margin-bottom: 20px;"></i>
+        <h2 style="color: white;">Our Commitment to Quality</h2>
+        <p style="max-width: 800px; margin: 20px auto;">Every batch of our eye drops undergoes rigorous testing for sterility, potency, and stability. We source only the highest-grade active pharmaceutical ingredients and maintain strict quality control throughout the manufacturing process. Your vision is our priority.</p>
+        <div style="margin-top: 30px;">
+          <a href="tel:08051481672" class="btn-call" style="background: var(--gold); color: var(--navy); border-color: var(--gold);">Contact Our Team →</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div><div class="footer-logo"><img src="images/logo.png" alt="Jaese & Jo Pharma Logo" class="logo-img" width="48" height="48"><p>Jaese & Jo Pharma Ltd<br>Dedicated to Better Vision</p></div></div>
+        <div><h4>Contact</h4><p><i class="fas fa-phone"></i> +234 805 148 1672<br><i class="fab fa-whatsapp"></i> +234 802 416 4899<br><i class="fas fa-envelope"></i> support@jaeseandjopharm.com.ng</p></div>
+        <div><h4>Address</h4><p>14, Ophthalmic Crescent,<br>Ikeja, Lagos, Nigeria</p></div>
+        <div><h4>Legal</h4><p>© 2025 Jaese & Jo Pharma.<br>All rights reserved.</p></div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
